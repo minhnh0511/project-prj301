@@ -1,0 +1,119 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 9, 2023, 7:51:26 PM
+    Author     : admin
+*/
+header {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: #ffffff;
+}
+
+.header__navigator {
+    display: flex;
+    align-items: center;
+}
+
+.header__navigator i {
+    padding: 15px 20px;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    margin: 5px 15px;
+    cursor: pointer;
+}
+
+.header__navigator img {
+    width: 160px;
+    cursor: pointer;
+}
+
+.header__navigator .dropdown .list-dropdown {
+    background-color: #ffffff;
+    border: none;
+    color: grey;
+    font-size: 16px;
+    font-weight: 100;
+    margin-left: 15px; 
+}
+
+.header__navigator .dropdown .list-dropdown i {
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.header__account {
+    margin-right: 40px;
+    color: grey;
+}
+
+.header__account a {
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px;
+}
+
+.header__account button {
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 8px;
+    margin: 10px;
+    border: none;
+}
+
+.header__account a:hover, button:hover {
+    background-color: blue;
+    text-decoration: none;
+}
+
+.account__dropdown {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.account__dropdown img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left: 15px;
+    border: 3px solid blueviolet;
+}
+
+.account__dropdown a{
+    background-color: #ffffff;
+    color: grey;
+    padding: 10px;
+    margin: 0;
+}
+
+.account__dropdown a i {
+    margin-right: 10px;
+}
+
+#registerModal form input{
+    margin: 10px;
+}
+
+#registerModal form input[type=submit] {
+    font-size: 20px;
+    background-color: blueviolet;
+    border: none;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#registerModal form input[type=submit]:hover {
+    background-color: blue;
+}

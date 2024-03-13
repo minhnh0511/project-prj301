@@ -1,0 +1,77 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 19, 2023, 5:37:56 PM
+    Author     : admin
+*/
+
+.addTest {
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 80px);
+    padding-top: 20px;
+    display: block;
+}
+
+.addTest div {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.addTest__title {
+    display: flex;
+    align-items: center;
+    border-top: 5px solid blueviolet;
+    flex-wrap: wrap;
+}
+
+.addTest__title nav {
+    width: 80%;
+}
+.addTest__title nav ol {
+    background-color: #ffffff;
+}
+
+.addTest__content form div {
+    margin: 5px 0px;
+    background-color: #f8f9fa;
+}
+
+.addTest__content form div input[type=text] {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px dotted #ddd;
+    margin: 10px;
+    width: 80%;
+}
+
+.addTest__content form input[name=testName] {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px dotted #ddd;
+    margin: 10px;
+    width: 80%;
+    padding: 10px;
+}
+
+.addTest__content form input[name=testName]:focus {
+    outline: none;
+}
+
+.addTest__content form div input:focus {
+    outline: none;
+}
+
+.addTest__content form input[type=submit] {
+    margin-top: 10px;
+    border: none;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 5px 10px;
+}
+
+.addTest__content form input[type=submit]:hover {
+    background-color: blue;
+}

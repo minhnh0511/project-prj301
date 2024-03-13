@@ -1,0 +1,42 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 23, 2023, 4:53:16 PM
+    Author     : admin
+*/
+
+.viewSearchedCourses {
+    min-height: calc(100vh - 80px);
+    padding-top: 20px;
+}
+
+.viewSearchedCourses div {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 10px;
+}
+
+.viewSearchedCourses__title {
+    display: flex;
+    align-items: center;
+    border-top: 5px solid blueviolet;
+    flex-wrap: wrap;
+}
+
+.viewSearchedCourses__title nav {
+    width: 80%;
+}
+.viewSearchedCourses__title nav ol {
+    background-color: #ffffff;
+}
+
+.viewSearchedCourses__content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.viewAllEnrolledCourses__content .card {
+    
+}

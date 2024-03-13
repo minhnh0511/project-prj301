@@ -1,0 +1,101 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 18, 2023, 5:34:14 PM
+    Author     : admin
+*/
+.profile {
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 80px);
+    padding-top: 20px;
+    display: block;
+}
+
+.profile div {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+
+.profile__title {
+    display: flex;
+    align-items: center;
+    border-top: 5px solid blueviolet;
+    flex-wrap: wrap;
+}
+
+.profile__title nav {
+    width: 80%;
+}
+.profile__title nav ol {
+    background-color: #ffffff;
+}
+
+
+.profile__title img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 60px;
+    border: 3px solid blueviolet;
+}
+
+.detail__title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.proflie__content--details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.proflie__content--details div{
+    width: 50%;
+}
+
+.proflie__content--details p {
+    margin: 30px;
+}
+
+.updateProfile__button {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+#collapseUpdateProfile div {
+    margin-left: 550px; 
+    border: 5px solid blueviolet;
+}
+
+#collapseUpdateProfile form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+#collapseUpdateProfile form input {
+    width: 300px;
+    padding: 5px;
+    border: blueviolet 1px solid;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+#collapseUpdateProfile form input[type=submit] {
+    width: 100px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 200px;
+    background-color: blueviolet;
+    color: #ffffff;
+    padding: 10px;
+}
+
+#collapseUpdateProfile form input[type=submit]:hover {
+    background-color: blue;
+}

@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Oct 19, 2023, 2:23:45 PM
+    Author     : admin
+*/
+.listQuestion {
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 80px);
+    padding-top: 20px;
+    display: block;
+    list-style: none;
+}
+
+.listQuestion form {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+}
+
+.listQuestion form span {
+    margin-left: 10px;
+}
+
+.listQuestion div {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-top: 5px solid blueviolet;
+}
+
+.listQuestion__title nav {
+    width: 80%;
+}
+.listQuestion__title nav ol {
+    background-color: #ffffff;
+}

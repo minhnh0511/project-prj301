@@ -1,0 +1,40 @@
+.questionsToDo {
+    background-color: #f8f9fa;
+    min-height: calc(100vh - 80px);
+    padding-top: 20px;
+    display: block;
+    list-style: none;
+}
+
+.questionsToDo form {
+    padding: 10px;
+}
+
+.questionsToDo form span {
+    margin-left: 10px;
+}
+
+.questionsToDo div {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 20px;
+    border-top: 5px solid blueviolet;
+}
+
+.questionsToDo li {
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 10px;
+}
+
+.questionsToDo form input[type=submit] {
+    color: #ffffff;
+    background-color: blueviolet;
+    padding: 5px 10px;
+    border:none;
+    margin: 10px;
+}
+
+.questionsToDo form input[type=submit]:hover {
+    background-color: blue;
+}
